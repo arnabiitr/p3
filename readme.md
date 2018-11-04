@@ -8,11 +8,7 @@
 ## 3 Unique inputs
 *This program finds the number of counts of the email in the content entered in the text area and validates and appends the website url with the count # found in the above step: (1) Text input for email , (2) Text input for Website Url  (3) Text Area for Content *
 
-## Class
-*List the name of the class you're using, e.g. `index.php`, `count.php`, etc.*
-
 ## Code style divergences
-
 
 ## Notes for instructor
 I used Server validations on the input elements 

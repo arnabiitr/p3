@@ -1,0 +1,1 @@
+Arnabs p3 project is a simple program to count the number of occurrences of the email in provide in the comment and add to the website url as an uri param .This is teh 3rd assignment and available in the link http://p3.loc/

@@ -2,6 +2,15 @@
 
 return [
 
+    'nav' => [
+        '/books' => 'Books',
+        '/books/create' => 'Add a book',
+        '/books/search' => 'Search',
+        '/practice' => 'Practice',
+        '/about' => 'About',
+        '/contact' => 'Contact',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -13,7 +22,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => 'Foobooks',
 
     /*
     |--------------------------------------------------------------------------
