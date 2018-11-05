@@ -2,15 +2,6 @@
 
 return [
 
-    'nav' => [
-        '/books' => 'Books',
-        '/books/create' => 'Add a book',
-        '/books/search' => 'Search',
-        '/practice' => 'Practice',
-        '/about' => 'About',
-        '/contact' => 'Contact',
-    ],
-
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -22,7 +13,7 @@ return [
     |
     */
 
-    'name' => 'Foobooks',
+    'name' => 'p3',
 
     /*
     |--------------------------------------------------------------------------
@@ -61,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://p3.dwa-fall2018-arnab.me/'),
 
     /*
     |--------------------------------------------------------------------------

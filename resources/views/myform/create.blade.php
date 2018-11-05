@@ -60,7 +60,9 @@
     </form>
 
     @if($count)
-        <h2>Results for query: <em>{{ $count }}</em></h2>
+
+        <div class="text-center">
+        <h2>Results for query the final url is: <em>{{$url}}/{{ $count }}</em></h2>
 
 
         @else
