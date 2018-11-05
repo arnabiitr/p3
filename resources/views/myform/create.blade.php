@@ -40,7 +40,7 @@
          </div>
 
         <div class="form-group">
-        <input type='checkbox' name='duplicate' {{ ($duplicate) ? 'checked' : '' }}><label for='duplicate'>* Duplicate</label>
+        <input type='checkbox' name='duplicate' id='duplicate' {{ ($duplicate) ? 'checked' : '' }}><label for='duplicate'>* Duplicate</label>
         </div>
         <p></p>
 
