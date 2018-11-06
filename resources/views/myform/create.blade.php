@@ -70,7 +70,7 @@
 
 
     @endif
-
+         </div>
     @if(count($errors) > 0)
         <div class='alert alert-danger'>
            Please correct the errors above.
