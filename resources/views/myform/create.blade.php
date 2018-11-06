@@ -59,14 +59,15 @@
         <input type='submit' value='submit' class='btn btn-primary'>
     </form>
 
-    <div class="text-center">
+
     @if($count)
 
-
+        <div class="text-center">
         <h2>Results for query the final url is: <em>{{$url}}/{{ $count }}</em></h2>
-
+        </div>
 
         @else
+        <div class="text-center">
         <h2>There are no Results for query the final url </h2>
         </div>
 
