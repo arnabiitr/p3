@@ -30,7 +30,7 @@
 
 
          <div class="form-group">
-        <label for='url'>Website: (required|url)</label>
+        <label for='url'>* Website: (required|url)</label>
         @if(count($errors) > 0)
         <input type='text' name='url' id='url' value='{{old('url')}}'>
         @else
@@ -45,7 +45,7 @@
         <p></p>
 
         <div class="form-group">
-        <label for='comment'>Comment (required)</label>
+        <label for='comment'>* Comment (required)</label>
         @if(count($errors) > 0)
             <textarea name="comment" id="comment" rows="5" cols="40" >{{old('comment')}}</textarea>
         @else
