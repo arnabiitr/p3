@@ -40,7 +40,7 @@
          </div>
 
         <div class="form-group">
-        <input type='checkbox' name='duplicate' id='duplicate' {{ ($duplicate) ? 'checked' : '' }}><label for='duplicate'>* Duplicate</label>
+        <input type='checkbox' name='duplicate' id='duplicate' {{ ($duplicate) ? 'checked' : '' }}><label for='duplicate'>Duplicate</label>
         </div>
         <p></p>
 
@@ -66,7 +66,7 @@
 
 
         @else
-        <h2>Results for query are zero </h2>
+        <h2>There are no Results for query the final url </h2>
 
 
     @endif
