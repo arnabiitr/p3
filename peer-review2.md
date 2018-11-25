@@ -31,7 +31,7 @@
 + Description: Submit form without specifying any field or without specifying some fields.
 + Outcome: It shows the validation errors which is expected .But it resets the drop down fields for the type of classes
 
-**Test 2 - Entering digits with 3 fields and selecting all the  class dropdowns **
+**Test 2 - Entering digits with 3 fields and selecting all the class dropdowns**
 + Description: Submit form fields with 2 digits .
 + Outcome: It is accepted as expected and the grade is calulated 
 
