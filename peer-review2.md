@@ -29,15 +29,15 @@
 
 **Test 1 - Submitting empty form**
 + Description: Submit form without specifying any field or without specifying some fields.
-+ Outcome: It shows the validation errors which is expected .But it resets the drop down fields 
++ Outcome: It shows the validation errors which is expected .But it resets the drop down fields for the type of classes
 
-**Test 2 - Entering numeric fields and selecting some dropdowns **
-+ Description: Submit form fields with numbers.
-+ Outcome: It is accepted ,but should not be as it is an name field
+**Test 2 - Entering digits with 3 fields and selecting all the  class dropdowns **
++ Description: Submit form fields with 2 digits .
++ Outcome: It is accepted as expected and the grade is calulated 
 
 **Test 3 - Entering Alphanumeric fields**
 + Description: Submit form with alphanumeric letters and numbers.
-+ Outcome: It is accepted and working as expected .But it resets the drop down fields 
++ Outcome: A validation error is thrown as  accepted  .But it resets the drop down fields for the type of classes
 
 ## 3. Code: Routes
  + GET routes and names and nomenclature are used appropriately.
