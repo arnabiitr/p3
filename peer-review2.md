@@ -37,7 +37,7 @@
 
 **Test 3 - Entering Alphanumeric fields**
 + Description: Submit form with alphanumeric letters and numbers.
-+ Outcome: A validation error is thrown as  accepted  .But it resets the drop down fields for the type of classes
++ Outcome: A validation error is thrown as expected  .But it resets the drop down fields for the type of classes
 
 ## 3. Code: Routes
  + GET routes and names and nomenclature are used appropriately.
